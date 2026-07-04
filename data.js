@@ -6,7 +6,7 @@ const ALUMNI_DATA = [
     "id": 1,
     "name": "Musa Aleji Sunday",
     "gender": "male",
-    "avatarSeed": "https://drive.google.com/file/d/1OwArMU5m-4mXn9b4Sh_1bhnT7aR5i3EI/view?usp=sharing",
+    "photo": "https://drive.google.com/file/d/1OwArMU5m-4mXn9b4Sh_1bhnT7aR5i3EI/view?usp=sharing",
     "city": "Abeokuta, Nigeria",
     "hobbies": [
       "Gaming",
