@@ -4,10 +4,10 @@
 const ALUMNI_DATA = [
   {
     "id": 1,
-    "name": "Chukwuemeka Osei",
+    "name": "Musa Aleji Sunday",
     "gender": "male",
-    "avatarSeed": "ChukwuemekaOsei1",
-    "city": "Benin City, Nigeria",
+    "avatarSeed": "https://drive.google.com/file/d/1OwArMU5m-4mXn9b4Sh_1bhnT7aR5i3EI/view?usp=sharing",
+    "city": "Abeokuta, Nigeria",
     "hobbies": [
       "Gaming",
       "DIY & crafts",
@@ -17,8 +17,8 @@ const ALUMNI_DATA = [
     "email": "chukwuemeka.osei@example.com",
     "phone": "",
     "socials": {
-      "instagram": "https://instagram.com/chukwuemekaosei",
-      "facebook": "https://facebook.com/chukwuemekaosei84"
+      "instagram": "https://instagram.com/kingaleji",
+      "facebook": "https://facebook.com/kingaleji"
     }
   },
   {
