@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alumni Directory — Redeemer Class of 2003</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-badge">'03</span>
+      Redeemer Class of 2003
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="alumni.html" class="active">Alumni Directory</a>
+    </div>
+  </div>
+</nav>
+
+<header class="directory-header container">
+  <h1>Alumni Directory</h1>
+  <p>100 classmates, one shared history. Search by name or city, or filter by hobby to find your old friends.</p>
+</header>
+
+<div class="controls">
+  <div class="container controls-inner">
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search by name or city...">
+    </div>
+    <select class="filter-select" id="hobbyFilter">
+      <option value="">All hobbies</option>
+    </select>
+    <span class="result-count" id="resultCount"></span>
+  </div>
+</div>
+
+<main class="container">
+  <div class="alumni-grid" id="alumniGrid"></div>
+</main>
+
+<footer class="site-footer">
+  Made with ❤️ by the Redeemer Class of 2003 &nbsp;·&nbsp; Nur/Prim. Sch. forever.
+</footer>
+
+<!-- Modal -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-card" id="modalCard"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
